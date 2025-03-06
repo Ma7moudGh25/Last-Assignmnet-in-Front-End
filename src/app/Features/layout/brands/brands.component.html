@@ -1,0 +1,13 @@
+<h1 class="text-center">All Brands</h1>
+<div class="flex flex-wrap my-4">
+  @for (brand of Brands; track $index) {
+    <div class="bg-slate-100 h-full rounded p-3">
+      <img [src]="brand.image" class="w-full h-[200px]" alt="category image">
+      <h2>{{brand.name}}</h2>
+      
+      
+    </div>
+    
+  }
+  
+</div>

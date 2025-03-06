@@ -1,0 +1,12 @@
+<div class="flex flex-wrap my-4">
+  @for (cat of cats; track $index) {
+    <div class="bg-slate-100 h-full rounded p-3">
+      <img [src]="cat.image" class="w-full h-[200px]" alt="category image">
+      <h2>{{cat.name}}</h2>
+      
+      
+    </div>
+    
+  }
+  
+</div>
